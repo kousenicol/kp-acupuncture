@@ -70,7 +70,7 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         from: 'K&P Wellness Partners <onboarding@resend.dev>',
-        to: ['drnicholaskim@gmail.com'],
+        to: ['knpwellnesspartners@gmail.com'],
         reply_to: email,
         subject: `[K&P Wellness Partners] New Inquiry from ${name}`,
         html: htmlBody,
